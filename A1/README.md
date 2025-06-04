@@ -19,4 +19,4 @@ Or
 make all train=gene.train test=gene.test
 ``` 
 
->> Wrote CUDA implementation of the important functions like feed-forward run, delta and MSE computations, back-propagation run, weight update for [FANN](https://github.com/libfann/fann) to show the effect of each optimisation on performance; compared with the serial/OpenMP implementation to check that the functionality is correct.
+>> Wrote CUDA implementation of the important functions like feed-forward run, delta and MSE computations, back-propagation run, weight update for [FANN](https://github.com/libfann/fann) to show the effect of each optimisation on performance; compared with the serial/OpenMP implementation to check that the functionality is correct; used the datasets given in its git repo https://github.com/libfann/fann/tree/master/datasets as the benchmarks. 
